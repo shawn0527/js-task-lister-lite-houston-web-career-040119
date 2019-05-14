@@ -11,3 +11,8 @@ let li = document.createElement('li')
 let btn = document.createElement('button')
 btn.innerHTML = 'X'
 li.appendChild(btn)
+
+submit.addEventListener('click', function(e){
+  btn.setAttribute('data-description', `${input.value}`)
+  ul.appendChild(li) 
+})
