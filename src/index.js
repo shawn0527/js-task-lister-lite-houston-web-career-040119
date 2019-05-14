@@ -12,6 +12,7 @@ btn.innerHTML = 'X'
 li.appendChild(btn)
 
 submit.addEventListener('click', function(e){
+  debugger
   btn.setAttribute('data-description', `${input.value}`)
   ul.appendChild(li)
 })
