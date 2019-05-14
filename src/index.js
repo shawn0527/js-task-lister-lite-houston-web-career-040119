@@ -9,4 +9,3 @@ let ul = document.getElementById('tasks')
 let li = document.createElement('li')
 let btn = document.createElement('button')
 li.appendChild(btn)
-ul
