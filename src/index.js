@@ -3,4 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.append()
 });
 
-let input = document.getElementById('')
+let input = document.getElementById('create-task-form')
+let submit = document.querySelectorAll('form')[1]
+let list = 
