@@ -4,7 +4,7 @@
 // });
 let form = document.getElementById('create-task-form')
 let input = form.querySelector('input')
-let submit = document.querySelectorAll('form')[1]
+let submit = document.querySelectorAll('form input')[1]
 let ul = document.getElementById('tasks')
 let li = document.createElement('li')
 let btn = document.createElement('button')
