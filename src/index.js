@@ -5,4 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 let input = document.getElementById('create-task-form')
 let submit = document.querySelectorAll('form')[1]
-let list = document.getElementById('list')
+let ul = document.getElementById('tasks')
+let li = document.createElement('li')
+let btn = document.createElement('button')
+li.appendChild(btn)
+ul
